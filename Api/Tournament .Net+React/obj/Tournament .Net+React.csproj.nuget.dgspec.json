@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bieloshapka\\Desktop\\working\\TournamentReact\\Api\\Tournament .Net+React\\Tournament .Net+React.csproj": {}
+    "C:\\Users\\bieloshapka\\Desktop\\working\\github\\TournamentWebApi\\Api\\Tournament .Net+React\\Tournament .Net+React.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bieloshapka\\Desktop\\working\\TournamentReact\\Api\\Tournament .Net+React\\Tournament .Net+React.csproj": {
+    "C:\\Users\\bieloshapka\\Desktop\\working\\github\\TournamentWebApi\\Api\\Tournament .Net+React\\Tournament .Net+React.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bieloshapka\\Desktop\\working\\TournamentReact\\Api\\Tournament .Net+React\\Tournament .Net+React.csproj",
+        "projectUniqueName": "C:\\Users\\bieloshapka\\Desktop\\working\\github\\TournamentWebApi\\Api\\Tournament .Net+React\\Tournament .Net+React.csproj",
         "projectName": "Tournament .Net+React",
-        "projectPath": "C:\\Users\\bieloshapka\\Desktop\\working\\TournamentReact\\Api\\Tournament .Net+React\\Tournament .Net+React.csproj",
+        "projectPath": "C:\\Users\\bieloshapka\\Desktop\\working\\github\\TournamentWebApi\\Api\\Tournament .Net+React\\Tournament .Net+React.csproj",
         "packagesPath": "C:\\Users\\bieloshapka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bieloshapka\\Desktop\\working\\TournamentReact\\Api\\Tournament .Net+React\\obj\\",
+        "outputPath": "C:\\Users\\bieloshapka\\Desktop\\working\\github\\TournamentWebApi\\Api\\Tournament .Net+React\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bieloshapka\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -62,7 +62,7 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[7.0.14, )"
             },
             "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",

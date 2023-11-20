@@ -18,13 +18,13 @@ namespace KnightTournament.Models
 
         public Status Status { get; set; }
 
-        public virtual ICollection<Round> Rounds { get; set; }
+        public virtual ICollection<Round> Rounds { get; set; } = new List<Round>();
 
         public virtual Guid? LocationId { get; set; }
 
         public virtual Location Location { get; set; }
 
-        public virtual ICollection<AppUser> Knights { get; set; } 
+        public virtual ICollection<AppUser> Knights { get; set; }  = new List<AppUser>();
 
         public virtual Guid HolderId { get; set; }  
 

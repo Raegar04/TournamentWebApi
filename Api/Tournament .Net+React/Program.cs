@@ -29,7 +29,7 @@ builder.Services.AddControllers()
         options.SerializerSettings.ContractResolver = new DefaultContractResolver();
     });
 
-builder.Services.AddIdentity<AppUser, IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>().AddUserStore<UserStore<AppUser, AppRole, ApplicationDbContext, Guid>>();
+builder.Services.AddIdentity<AppUser, IdentityRole<Guid>>().AddEntityFrameworkStores<ApplicationDbContext>().AddUserStore<UserStore<AppUser, IdentityRole<Guid>, ApplicationDbContext, Guid>>();
 
 
 builder.Services.AddEndpointsApiExplorer();
@@ -51,6 +51,7 @@ app.UseCors(builder =>
 });
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

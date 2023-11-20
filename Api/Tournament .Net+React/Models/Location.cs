@@ -12,6 +12,6 @@
 
         public string ImgUri { get; set; }
 
-        public virtual ICollection<Tournament> Tournaments { get; set; }
+        public virtual ICollection<Tournament> Tournaments { get; set; } = new List<Tournament>();
     }
 }

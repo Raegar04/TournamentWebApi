@@ -17,6 +17,6 @@ namespace KnightTournament.Models
 
         public virtual Round Round { get; set; }
 
-        public virtual ICollection<AppUser> AssignedKnights { get; set; }
+        public virtual ICollection<AppUser> AssignedKnights { get; set; } = new List<AppUser>();
     }
 }
